@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://mirzask.github.io/QA_paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://mirzask.github.io/QA_paper/v/8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697/" />
+  <link rel="alternate" type="text/html" href="https://mirzask.github.io/QA_paper/v/af208e6d7ffb2120182c884cdadc601cde8baf69/" />
 
-  <meta name="manubot_html_url_versioned" content="https://mirzask.github.io/QA_paper/v/8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697/" />
+  <meta name="manubot_html_url_versioned" content="https://mirzask.github.io/QA_paper/v/af208e6d7ffb2120182c884cdadc601cde8baf69/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://mirzask.github.io/QA_paper/v/8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://mirzask.github.io/QA_paper/v/af208e6d7ffb2120182c884cdadc601cde8baf69/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://mirzask.github.io/QA_paper/v/8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697/))
+([permalink](https://mirzask.github.io/QA_paper/v/af208e6d7ffb2120182c884cdadc601cde8baf69/))
 was automatically generated
-from [mirzask/QA_paper@8b9b5ce](https://github.com/mirzask/QA_paper/tree/8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697)
+from [mirzask/QA_paper@af208e6](https://github.com/mirzask/QA_paper/tree/af208e6d7ffb2120182c884cdadc601cde8baf69)
 on May 15, 2020.
 </em></small>
 
