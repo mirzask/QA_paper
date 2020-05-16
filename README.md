@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/mirzask/QA_paper/tree/gh-pages) branch hosts the contents of this directory at <https://mirzask.github.io/QA_paper/>.
-The permalink for this webpage version is <https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/>.
+The permalink for this webpage version is <https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://mirzask.github.io/QA_paper/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`a8324633e1c88db2b5785770dcd57bc486206f84`](https://github.com/mirzask/QA_paper/commit/a8324633e1c88db2b5785770dcd57bc486206f84).
+[`b55609c75aaacbb2093ae30e4b74eb736fe89ba2`](https://github.com/mirzask/QA_paper/commit/b55609c75aaacbb2093ae30e4b74eb736fe89ba2).

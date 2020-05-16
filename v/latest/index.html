@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-05-15" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <meta name="author" content="Riqiang Gao" />
+  <meta name="author" content="Mirza S. Khan" />
+  <meta name="dcterms.date" content="2020-05-16" />
+  <meta name="keywords" content="quality assessment, medical imaging, DICOM, NifTI" />
+  <title>Python-based Quality Assessment Tools for Medical Imaging</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,35 +25,35 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2020-05-15" />
-  <meta name="citation_publication_date" content="2020-05-15" />
+  <meta name="dc.title" content="Python-based Quality Assessment Tools for Medical Imaging" />
+  <meta name="citation_title" content="Python-based Quality Assessment Tools for Medical Imaging" />
+  <meta property="og:title" content="Python-based Quality Assessment Tools for Medical Imaging" />
+  <meta property="twitter:title" content="Python-based Quality Assessment Tools for Medical Imaging" />
+  <meta name="dc.date" content="2020-05-16" />
+  <meta name="citation_publication_date" content="2020-05-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Riqiang Gao" />
+  <meta name="citation_author_institution" content="Electrical Engineering and Computer Science, Vanderbilt University" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Mirza S. Khan" />
+  <meta name="citation_author_institution" content="U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, Vanderbilt University" />
+  <meta name="citation_author_orcid" content="0000-0001-7007-9437" />
   <link rel="canonical" href="https://mirzask.github.io/QA_paper/" />
   <meta property="og:url" content="https://mirzask.github.io/QA_paper/" />
   <meta property="twitter:url" content="https://mirzask.github.io/QA_paper/" />
   <meta name="citation_fulltext_html_url" content="https://mirzask.github.io/QA_paper/" />
   <meta name="citation_pdf_url" content="https://mirzask.github.io/QA_paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://mirzask.github.io/QA_paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/" />
-  <meta name="manubot_html_url_versioned" content="https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/" />
-  <meta name="manubot_pdf_url_versioned" content="https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/" />
+  <meta name="manubot_html_url_versioned" content="https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,42 +63,127 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">Python-based Quality Assessment Tools for Medical Imaging</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/">permalink</a>)
+(<a href="https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/mirzask/QA_paper/tree/a8324633e1c88db2b5785770dcd57bc486206f84">mirzask/QA_paper@a832463</a>
-on May 15, 2020.
+from <a href="https://github.com/mirzask/QA_paper/tree/b55609c75aaacbb2093ae30e4b74eb736fe89ba2">mirzask/QA_paper@b55609c</a>
+on May 16, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong><br>
+<li><p><strong>Riqiang Gao</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
 <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/johndoe">johndoe</a>
+<a href="https://github.com/RiqiangGao">RiqiangGao</a>
 · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
 <a href="https://twitter.com/johndoe">johndoe</a><br>
 <small>
-Department of Something, University of Whatever
+Electrical Engineering and Computer Science, Vanderbilt University
 · Funded by Grant XXXXXXXX
 </small></p></li>
-<li><p><strong>Jane Roe</strong><br>
+<li><p><strong>Mirza S. Khan</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0001-7007-9437">0000-0001-7007-9437</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
+<a href="https://github.com/mirzask">mirzask</a><br>
 <small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
+U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System; Department of Biomedical Informatics, Vanderbilt University
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<p>Ensuring good quality of medical images (e.g., computed tomography, CT) is essential for achieve maximum diagnostic information and image interpretation. While in practice, medical imaging can be destroyed by many factors such as system error at data acquisition and network transferring. Multiple existed tools are developed to deal with medical imaging, while most of them are either fail to handle multiple errors may encounter or provide comprehensive quality assessment (QA) report. In this paper, we develop a whole pipeline with several open source applications to assess the quality of CT images from the original DICOM file, and convert to 3D NIFTI files. Seven possible steps are checked to make sure the medical images are appropriate for next steps (diagnostic usage or machine learning). Our QA tool has been proved to be useful and time-saving for clinical laboratory usage and processing data for image interpretation.</p>
+<p>The code and tutorials are publicly available at https://github.com/MASILab/QA_tool.</p>
+<h2 class="page_break_before" id="introduction">Introduction</h2>
+<p>The primary use case for medical imaging is for interpretation by radiologists and other trained persons. Secondary use of medical imaging for research and discovery has become more prominent and has led to many meaningful contributions to imaging and medicine.</p>
+<p>Often, analyses relying on medical imaging utilize the raw Digital Imaging and Communications in Medicine (DICOM) image files or other common image file formats, such as nrrd or NIfTI. In medical image de-identification, minor encoding errors or manipulation of DICOM file data could render these files useless or inaccessible [<strong>citation</strong>]. On a similar note, adjustments/modifications to image files, such as those used to aid a radiologists’ view, may pose challenges for image modeling tasks. Yet, <del>there remains little consensus or tools providing a pipeline</del> little attention has been afforded to ensure the quality of medical image files prior to use in model training <del>to be used in downstream analyses</del>.</p>
+<p>Data quality is often an under-appreciated but vital component for machine learning tasks, including natural language processing and computer vision. This is often described by the adage, “garbage in, garbage out.” In order to address this matter for our own model development, we have developed a series of sensible, automated data quality checks for medical imaging data.</p>
+<p>Here we present our tool to assist with quality assessment of medical image files… We demonstrate its use on NLST and x other imaging studies… (some NLST image files are of poor quality; how does this affect model performance?). Demonstrate improved performance of downstream learning tasks by using satisfactory images for training.</p>
+<h2 id="intuition-and-task-description">Intuition and Task Description</h2>
+<p>In this paper, we describe the several steps of quality assessment (QA) for the de-identified CT scans, including the steps converting 2D DICOM files to 3D NIFTI.</p>
+<h2 id="related-tools-used-in-our-pipeline">Related Tools used in our Pipeline</h2>
+<h2 id="detailed-steps">Detailed Steps</h2>
+<h3 id="instance-number-checking">Instance Number Checking</h3>
+<p><em>Instance Number (IN)</em> is a number that identifies this image in DICOM files, which was named Image Number in earlier versions [1]. Generally, the INs of DICOM images in a single scan should be a series of consecutive integers. Our first priority is to check if there are any missing INs of the CT scan. We check the IN using</p>
+<p><span class="math display">\[
+\begin{array}{c}
+C_{1}=\max \left\{i n_{i}\right\}-\min \left\{i n_{i}\right\}+1-\text {size}\left\{i n_{i}\right\} \\
+\left.C_{2}=\sum_{i, j, i &lt; j} 1\left\{i n_{i}=i n_j\right\}\right\}
+\end{array}
+\]</span></p>
+<p>where <span class="math inline">\(\{i n_{i}\}\)</span> is the list of INs of the DICOM files, and <span class="math inline">\(\text {size}\left\{i n_{i}\right\}\)</span> indicates how many DICOMs in the scan. <span class="math inline">\(C_1\)</span> and <span class="math inline">\(C_2\)</span> represent how many slices are missed in the scan and how many slice-pairs with the same IN, respectively. The CT scan passes the Instance Number check if <span class="math inline">\(C_1=0\)</span> and <span class="math inline">\(C_2=0\)</span>.</p>
+<h3 id="slice-distance-checking">Slice Distance Checking</h3>
+<p><em>Slice Location</em> is defined as the relative position of the image plane expressed in mm. This information is relative to an unspecified implementation specific reference point <span class="citation" data-cites="wwifLCIk">[<a href="#ref-wwifLCIk" role="doc-biblioref">1</a>]</span>. Slice Distance (SD) is defined as subtraction of Slice Location of the two consecutive DICOMs. Generally speaking, the SD of all consecutive pairs should be the same in a scan, while in practice, the system error might result in very small difference. Herein, we introduce a self-defined threshold to tolerant the system error. The SD checking is</p>
+<p><span class="math display">\[
+C_{3}=\sum_{i} 1\left\{s d_{i}&lt;\varepsilon\right\}
+\]</span></p>
+<p>where <span class="math inline">\(\{ sd_i \}\)</span> is the list of SDs of DICOM files, is the self-defined tolerance threshold. <span class="math inline">\(C_3\)</span> represents how many places which slice distance error. The CT scan pass the Instance Number checking if <span class="math inline">\(C_3=0\)</span>.</p>
+<h3 id="filtering-scans-with-few-slices">Filtering Scans with few slices</h3>
+<p>Some scans with unreasonable limited number of slices but can easily pass the Instance Number checking and Slice Distance checking. For example, if a chest scan only with 3 DICOM slices, it cannot be usable. Filtering those scans can be easily done with a self-defined threshold on <span class="math inline">\(\text {size}\left\{i n_{i}\right\}\)</span>.</p>
+<p><span class="math display">\[
+C_4 = 1 \{ \text {size}\left\{i n_{i}\right\} &lt; \delta \}
+\]</span></p>
+<p>where <span class="math inline">\(\delta\)</span> is the self-defined threshold for filtering scans with few slices. The CT scan pass the filtering checking if <span class="math inline">\(C_4=0\)</span>.</p>
+<h3 id="physical-length-filtering">Physical Length Filtering</h3>
+<p>Some scans are unreasonable extended out of the Region of Interest. For example, the target scan is chest CT while is given a whole-body scan. Another situation is only a chunk of chest CT is given without a complete lung. The <em>Physical Length Filtering</em> is designed for selecting those CTs with unreasonable physical body length for further processing or removing. Two thresholds are needed (i.e., low bound and upper bound of physical body length) for filtering</p>
+<p><span class="math display">\[
+C_5 = 1 \{ \sigma_1 &lt; PL &lt; \sigma_2 \}
+\]</span></p>
+<p>where <span class="math inline">\(PL\)</span> is the physical length computed from Slice Location of DICOMs, <span class="math inline">\(\sigma_1\)</span> and <span class="math inline">\(\sigma_2\)</span> are the self-defined low bound and upper bound. The CT scan pass the filtering checking if <span class="math inline">\(C_5=1\)</span>.</p>
+<h3 id="convert-dicom-files-to-nifti">Convert DICOM files to NifTI</h3>
+<p>We use an open-source tool <code>dcm2niix</code> <span class="citation" data-cites="WFutY7be">[<a href="#ref-WFutY7be" role="doc-biblioref">2</a>]</span> to convert DICOMs file to NIFTI.</p>
+<h3 id="nifti-orientation-check-and-resolution-filtering">NifTI orientation Check and Resolution filtering</h3>
+<p>We check the CT orientation and resolution in the affine matrix A, whose size is 4x4. We have</p>
+<p><span class="math display">\[
+\begin{array}{c}
+C_{6}=1\left\{-A_{11}=A_{22}=A_{33}&gt;0\right\} \\
+C_{7}=\sum_{i=1}^{3} 1\left\{\left|A_{i i}\right|&gt;\Phi_{i}\right\}
+\end{array}
+\]</span></p>
+<p>where <span class="math inline">\(\Phi\)</span> is the thresholds of 3 dimensions. The CT scan is not with standard orientation if <span class="math inline">\(C_6=0\)</span>, and we use the open source <code>fslreorient2std</code> to convert CT to standard orientation. <span class="math inline">\(C_7&gt;0\)</span> represents that the CT does not match resolution requirements.</p>
+<h3 id="double-check-with-visualized-slices">Double check with visualized slices</h3>
+<p>We use the <code>slicesdir</code> [<strong>citation</strong>] to visualize scans.</p>
+<h2 id="methods">Methods</h2>
+<h2 id="results">Results</h2>
+<div id="fig:instance-check" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/InstanceCheck.png" alt="" /><figcaption><span>Figure 1:</span> Case of Instance Number check failure.</figcaption>
+</figure>
+</div>
+<div id="fig:slice-distance" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/SliceDistance.png" alt="" /><figcaption><span>Figure 2:</span> Case of Slice Distance check failure.</figcaption>
+</figure>
+</div>
+<div id="fig:few-slices" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/FewSlices.png" alt="" /><figcaption><span>Figure 3:</span> Case of Filtering too few slices.</figcaption>
+</figure>
+</div>
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/PhysicalLength.png" alt="" /><figcaption>Case of Physical Length Filtering showing extension outside of the region of interest.</figcaption>
+</figure>
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/orientationCheck.png" alt="" /><figcaption>Case of Orientation check failure.</figcaption>
+</figure>
+<figure>
+<img src="https://raw.githubusercontent.com/MASILab/QA_tool/master/example_image/slicesdirCheck.png" alt="" /><figcaption>Case found in <code>slicesdir</code> sanity check failure.</figcaption>
+</figure>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-wwifLCIk">
+<p>1. <strong>Slice Location Attribute – DICOM Standard Browser</strong><a href="https://dicom.innolitics.com/ciods/ct-image/image-plane/00201041">https://dicom.innolitics.com/ciods/ct-image/image-plane/00201041</a></p>
+</div>
+<div id="ref-WFutY7be">
+<p>2. <strong>The first step for neuroimaging data analysis: DICOM to NIfTI conversion</strong><br />
+Xiangrui Li, Paul S. Morgan, John Ashburner, Jolinda Smith, Christopher Rorden<br />
+<em>Journal of Neuroscience Methods</em> (2016-05) <a href="https://doi.org/f8jkpx">https://doi.org/f8jkpx</a><br />
+DOI: <a href="https://doi.org/10.1016/j.jneumeth.2016.03.001">10.1016/j.jneumeth.2016.03.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26945974">26945974</a></p>
+</div>
 </div>
 <!-- default theme -->
 
