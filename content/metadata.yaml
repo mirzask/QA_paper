@@ -1,26 +1,27 @@
 ---
-title: "Manuscript Title"
+title: "Python-based Quality Assessment Tools for Medical Imaging"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - quality assessment
+  - medical imaging
+  - DICOM
+  - NifTI
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: RiqiangGao
+    name: Riqiang Gao
+    initials: RG
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
-    email: john.doe@something.com
+    email: riqiang.gao@vanderbilt.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Electrical Engineering and Computer Science, Vanderbilt University
     funders:
       - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+  - github: mirzask
+    name: Mirza S. Khan
+    initials: MSK
+    orcid: 0000-0001-7007-9437
+    email: mirza.s.khan@vanderbilt.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System
+      - Department of Biomedical Informatics, Vanderbilt University
