@@ -1,18 +1,19 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "Python-based Quality Assessment Tools for Medical Imaging",
     "keywords": [
-      "markdown",
-      "publishing",
-      "manubot"
+      "quality assessment",
+      "medical imaging",
+      "DICOM",
+      "NifTI"
     ],
     "lang": "en-US",
-    "date-meta": "2020-05-15",
+    "date-meta": "2020-05-16",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Riqiang Gao",
+      "Mirza S. Khan"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-05-15\" />\n<meta name=\"citation_publication_date\" content=\"2020-05-15\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://mirzask.github.io/QA_paper/\" />\n<meta property=\"og:url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta property=\"twitter:url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://mirzask.github.io/QA_paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://mirzask.github.io/QA_paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Python-based Quality Assessment Tools for Medical Imaging\" />\n<meta name=\"citation_title\" content=\"Python-based Quality Assessment Tools for Medical Imaging\" />\n<meta property=\"og:title\" content=\"Python-based Quality Assessment Tools for Medical Imaging\" />\n<meta property=\"twitter:title\" content=\"Python-based Quality Assessment Tools for Medical Imaging\" />\n<meta name=\"dc.date\" content=\"2020-05-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-05-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Riqiang Gao\" />\n<meta name=\"citation_author_institution\" content=\"Electrical Engineering and Computer Science, Vanderbilt University\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Mirza S. Khan\" />\n<meta name=\"citation_author_institution\" content=\"U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, Vanderbilt University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7007-9437\" />\n<link rel=\"canonical\" href=\"https://mirzask.github.io/QA_paper/\" />\n<meta property=\"og:url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta property=\"twitter:url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://mirzask.github.io/QA_paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://mirzask.github.io/QA_paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://mirzask.github.io/QA_paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,17 +23,17 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "May 15, 2020",
+    "date": "May 16, 2020",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
+        "github": "RiqiangGao",
+        "name": "Riqiang Gao",
+        "initials": "RG",
         "orcid": "XXXX-XXXX-XXXX-XXXX",
         "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "email": "riqiang.gao@vanderbilt.edu",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Electrical Engineering and Computer Science, Vanderbilt University"
         ],
         "funders": [
           "Grant XXXXXXXX"
@@ -42,29 +43,33 @@
         ]
       },
       {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
+        "github": "mirzask",
+        "name": "Mirza S. Khan",
+        "initials": "MSK",
+        "orcid": "0000-0001-7007-9437",
+        "email": "mirza.s.khan@vanderbilt.edu",
         "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
+          "U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System",
+          "Department of Biomedical Informatics, Vanderbilt University"
         ],
         "affiliation_numbers": [
-          1,
-          2
+          2,
+          3
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Electrical Engineering and Computer Science, Vanderbilt University",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Whatever, University of Something",
+        "affiliation": "U.S. Department of Veterans Affairs, Tennessee Valley Healthcare System",
         "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Biomedical Informatics, Vanderbilt University",
+        "affiliation_number": 3
       }
     ],
     "ci_source": {
@@ -72,19 +77,19 @@
       "repo_slug": "mirzask/QA_paper",
       "repo_owner": "mirzask",
       "repo_name": "QA_paper",
-      "commit": "a8324633e1c88db2b5785770dcd57bc486206f84",
-      "triggering_commit": "a8324633e1c88db2b5785770dcd57bc486206f84",
-      "build_url": "https://github.com/mirzask/QA_paper/commit/a8324633e1c88db2b5785770dcd57bc486206f84/checks",
+      "commit": "b55609c75aaacbb2093ae30e4b74eb736fe89ba2",
+      "triggering_commit": "b55609c75aaacbb2093ae30e4b74eb736fe89ba2",
+      "build_url": "https://github.com/mirzask/QA_paper/commit/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/checks",
       "job_url": "https://github.com/mirzask/QA_paper/runs/run3"
     },
     "html_url": "https://mirzask.github.io/QA_paper/",
     "pdf_url": "https://mirzask.github.io/QA_paper/manuscript.pdf",
-    "html_url_versioned": "https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/",
-    "pdf_url_versioned": "https://mirzask.github.io/QA_paper/v/a8324633e1c88db2b5785770dcd57bc486206f84/manuscript.pdf",
+    "html_url_versioned": "https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/",
+    "pdf_url_versioned": "https://mirzask.github.io/QA_paper/v/b55609c75aaacbb2093ae30e4b74eb736fe89ba2/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "8b9b5ced2c7c963bf3ea5afb8f31f9a4a54ab697",
     "manuscript_stats": {
-      "word_count": 246
+      "word_count": 1339
     }
   }
 }
